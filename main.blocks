@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables></variables><block type="device_forever" id="ou|NYEzs~|:rc6bJf+vT" x="338" y="-22"><statement name="HANDLER"><block type="controls_if" id="C2g3X`%J1TW9HU#Gc[?u"><mutation elseif="2" else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="l]TEUYLb^X6Ia%21}.}@"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="]~C=1|p)%^:@QOsXw?;J"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="device_show_leds" id="+,wVsT%(_FEPJaP,FtIL"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="radio_datagram_send" id="Rtp;-c#9~@X?@F^^L~;B"><value name="value"><shadow type="math_number" id="hi(?EGHSDJ8ui{^bN_h,"><field name="NUM">0</field></shadow></value></block></next></block></statement><value name="IF1"><shadow type="logic_boolean" id="O+|G87^S2wW-8F52`-WY"><field name="BOOL">FALSE</field></shadow><block type="device_pin_is_pressed" id="2jbJh,z9pKpy;hQRW_*_"><field name="NAME">TouchPin.P1</field></block></value><statement name="DO1"><block type="device_show_leds" id="0o9c#1jZC;h|:@+F$.|?"><field name="LEDS">`
+        . # # . . 
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . # # # .
+        `</field><next><block type="radio_datagram_send" id="2M|s)=pVndX.BrKt+uo]"><value name="value"><shadow type="math_number" id="7S/wGhW)P+[52ogmN.0]"><field name="NUM">1</field></shadow></value></block></next></block></statement><value name="IF2"><shadow type="logic_boolean" id="a)}KxcGuPGYTW:ToAzBW"><field name="BOOL">FALSE</field></shadow><block type="device_pin_is_pressed" id="F27X9nClp{bKP/cp_O3x"><field name="NAME">TouchPin.P2</field></block></value><statement name="DO2"><block type="device_show_leds" id="}}dmTLSVt0D;{g9H}{:R"><field name="LEDS">`
+        . # # # . 
+        # . . # # 
+        . . # # . 
+        . # # . . 
+        # # # # #
+        `</field><next><block type="radio_datagram_send" id="W|ExeIuRXV@:$oaM[AJ("><value name="value"><shadow type="math_number" id="g6fW7j_ynzJ5sGX6hr$t"><field name="NUM">2</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="bo;vZTxV5Dy?iaJ-ddsm"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></statement></block><block type="pxt-on-start" id="$Kn-fW=_)FxCrO((IKSG" x="0" y="0"><statement name="HANDLER"><block type="radio_set_group" id=")H7[2?`z|)FL_i=!wF7|"><value name="ID"><shadow type="math_number_minmax" id="s?DMi,XWU^6ZVzqV.G`V"><mutation min="0" max="255" label="Id" precision="0"></mutation><field name="SLIDER">50</field></shadow></value></block></statement></block><block type="logic_boolean" id="-@).A%VaUGicEkmPI_[r" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="354" y="26"><field name="BOOL">FALSE</field></block><block type="logic_boolean" id="|#.dup!I,lV;r[n5~b)(" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="354" y="26"><field name="BOOL">FALSE</field></block><block type="logic_boolean" id="D5O2yrx%xd2@W#/LBNa%" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="354" y="26"><field name="BOOL">FALSE</field></block><block type="logic_boolean" id="!(~NP/ZFl_P9KZ;kdN$z" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="354" y="26"><field name="BOOL">FALSE</field></block><block type="logic_boolean" id="x]5.3vpx8KIu062i3k@S" disabled-reasons="ORPHANED_BLOCK,MANUALLY_DISABLED" x="354" y="26"><field name="BOOL">FALSE</field></block></xml>
